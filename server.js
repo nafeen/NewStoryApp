@@ -31,7 +31,7 @@ var app                =   express();
 
 
 // Routing for Sample App
-app.use('/', express.static('./apps/sample-app'));
+app.use('/', express.static('./apps/landing-page'));
 
 
 // listening on port 3000
