@@ -30,8 +30,8 @@ var app                =   express();
 // });
 
 
-// Routing for Sample App
-app.use('/', express.static('./apps/landing-page'));
+// Routing for Chat Story App
+app.use('/', express.static('./apps/random-puke'));
 
 
 // listening on port 3000
